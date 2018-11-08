@@ -51,7 +51,7 @@ Our team created a new directive that doesn’t have any of those limitations.
 Welcome to ngVFor!
 
 You can find the npm [here](https://www.npmjs.com/package/ngvforlib), and the
-github with the source, [here](https://github.com/anagram4wander/ng-vfor-lib).
+github with the source, [here](https://github.com/anagram4wander/ng-vfor).
 
 Let’s start with a simple example using the existing ngFor directive, then
 expand it to use the new ngVFor. Once we have done that, look towards the end of
@@ -149,7 +149,7 @@ And then import and add to the imports section the `NgGUDCoreModule` into
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
-import { NgGUDCoreModule } from 'ng-vfor-lib';
+import { NgGUDCoreModule } from 'ng-vfor';
 
 @NgModule({
   declarations: [

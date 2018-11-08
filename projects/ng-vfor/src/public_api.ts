@@ -1,5 +1,5 @@
 /*
- * Public API Surface of ng-vfor-lib
+ * Public API Surface of ng-vfor
  */
 
 export * from './lib/ng-gudcore.module';

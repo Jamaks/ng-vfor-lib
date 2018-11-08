@@ -18,11 +18,11 @@
       "dom"
     ],
     "paths": {
-      "ngVFor-lib": [
-        "dist/ng-vfor-lib"
+      "ng-vfor": [
+        "dist/ng-vfor"
       ],
-      "ngVFor-lib/*": [
-        "dist/ng-vfor-lib/*"
+      "ng-vfor/*": [
+        "dist/ng-vfor/*"
       ]
     }
   }

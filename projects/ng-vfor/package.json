@@ -1,0 +1,29 @@
+{
+  "name": "ng-vfor",
+  "version": "0.0.5",
+  "license": "MIT",
+  "description": "Virtual ngVFor structural directive and container. PURE Virtual !",
+  "main": "./bundles/ng-vfor.umd.js",
+  "module": "./ng-vfor.es5.js",
+  "es2015": "./ng-vfor.js",
+  "typings": "./ng-vfor.d.ts",
+  "keywords": [
+    "angular",
+    "ngVFor",
+    "ngFor",
+    "*ngVFor",
+    "*ngFor"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamaks/ng-vfor-lib.git"
+  },
+  "homepage": "https://github.com/jamaks/ng-vfor-lib",
+  "bugs": {
+    "url": "https://github.com/jamaks/ng-vfor-lib/issues"
+  },
+  "peerDependencies": {
+    "@angular/common": "^6.1.0",
+    "@angular/core": "^6.1.0"
+  }
+}

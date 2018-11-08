@@ -1,5 +1,5 @@
 {
-  "name": "ng-gud",
+  "name": "ng-vfor-app",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,9 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build_lib": "ng build ngVFor-lib",
-    "npm_pack": "cd dist/ng-vfor-lib && npm pack",
-    "package": "npm run build_lib && npm run npm_pack"
+    "build:lib": "ng build ng-vfor",
+    "deploy": "cd ./dist/ng-vfor && npm publish"
   },
   "private": true,
   "dependencies": {

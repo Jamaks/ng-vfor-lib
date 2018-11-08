@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { NgGUDCoreModule } from '../../projects/ng-vfor-lib/src/public_api';
+import { NgGUDCoreModule } from '../../projects/ng-vfor/src/public_api';
 
 
 @NgModule({
